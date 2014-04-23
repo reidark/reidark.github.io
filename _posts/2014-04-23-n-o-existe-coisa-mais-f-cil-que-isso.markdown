@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Criando um "blog" no GitHub com tinypress.
 layout: post
 tags: [github pages]
