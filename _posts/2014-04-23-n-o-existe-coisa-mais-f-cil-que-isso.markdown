@@ -14,7 +14,7 @@ Testar é melhor do que falar, né? Vá até o site [https://tinypress.co/](http
 
 Essa ferramenta vai criar um repositório público em seu github e nele vai ficar "hospedado" todo o código do seu blog, desde layout até os posts presentes nele.
 
-Não preciso nem lembrar que o blog é feito em markdown, então, caso queiram editar alguma coisa, usem a [http://daringfireball.net/projects/markdown/syntax](syntax do markdown).
+Não preciso nem lembrar que o blog é feito em markdown, então, caso queiram editar alguma coisa, usem a (http://daringfireball.net/projects/markdown/syntax)[syntax do markdown].
 
 Pronto.
 
