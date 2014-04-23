@@ -1,0 +1,7 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+title: reidark
+tagline: code to back home
+description: code with melancholic track
+paginate: 5
