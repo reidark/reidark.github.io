@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Não existe coisa mais fácil que isso.
 layout: post
 tags: [github pages]
@@ -11,6 +11,8 @@ Criar um "blog" que tá mais pra página pessoal pública, no Github é mais fá
 Dá pra criar um blog, com, literalmente, 1 click.
 
 Testar é melhor do que falar, né? Vá até o site [https://tinypress.co/](https://tinypress.co/) e faça seu cadastro.
+
+Essa ferramenta vai criar um repositório público em seu github e nele vai ficar "hospedado" todo o código do seu blog, desde layout até os posts presentes nele.
 
 Pronto.
 
