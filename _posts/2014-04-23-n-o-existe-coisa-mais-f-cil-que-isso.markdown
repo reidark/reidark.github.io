@@ -1,6 +1,6 @@
 ---
 published: true
-title: Não existe coisa mais fácil que isso.
+title: Criando um "blog" no GitHub com tinypress.
 layout: post
 tags: [github pages]
 categories: [básico]
