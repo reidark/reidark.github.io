@@ -5,3 +5,8 @@ title: reidark
 tagline: code to back home
 description: code with melancholic track
 paginate: 5
+author:
+  reidark:
+    name: reidark
+    url: http://reidark.github.io
+    twitter: @reidarking
