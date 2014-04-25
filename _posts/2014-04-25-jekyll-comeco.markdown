@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Jekyll - Começando do começo
 layout: post
 tags: [github pages]
