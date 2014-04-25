@@ -6,7 +6,6 @@ tags: [github pages]
 categories: [básico]
 permalink: criando-paginas-no-github
 excerpt: Criar um blog estático nunca foi tão fácil.
-author: reidark
 ---
 Criar um "blog" que tá mais pra página pessoal pública, no Github é mais fácil do que qualquer coisa, principalmente quando se usa essa ferramenta chamada: "Tinypress." 
 
