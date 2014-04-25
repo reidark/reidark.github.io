@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Jekyll - Começando do começo
 layout: post
 tags: [github pages]
@@ -11,7 +11,9 @@ author: reidark
 Jekyll é um gerador estático para blogs, um pouco mais simples que o Midleman. Porém ele é muito bacana, já vem com algumas coisas pré configuradas, como o uso de marcação
 para códigos
 
-## Start from beginning
+## Coisas "bacanas"
+
+Com ele, você consegue fácilmente digitar linhas de códigos com o comando hightlight:
 
 {% highlight html %}
 
