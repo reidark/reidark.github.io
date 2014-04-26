@@ -5,7 +5,7 @@ layout: post
 tags: [github pages]
 categories: [básico]
 permalink: teste
-excerpt: Eita simplicidade.
+excerpt: Teste atrás de testes.
 author: reidark
 ---
 Jekyll é um gerador estático para blogs, um pouco mais simples que o Midleman. Porém ele é muito bacana, já vem com algumas coisas pré configuradas, como o uso de marcação
