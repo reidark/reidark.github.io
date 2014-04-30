@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="pt-br" itemscope itemtype="http://schema.org/Blog">
+
+		<head>
+
+			<meta charset="utf-8" />
+
+			<title>
+			    
+			    {% if page.title == "Home" %}
+              {{ site.title }} &middot; {{ site.tagline }}
+            {% else %}
+              {{ page.title }} &middot; {{ site.title }}
+            {% endif %}
+			    
+			</title>
+			
+			<!-- XML -->
+
+			<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+			
+			<!-- MODERNIZR -->
+
+			<script src="/assets/js/modernizr.js"></script>
+
+			<!-- ESTILOS -->
+
+			<link rel="stylesheet" href="/assets/css/style.min.css" />
+			<link rel="stylesheet" href="/assets/css/syntax.css" />
+			
+			<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
+			<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+
+			<!-- VIEWPORT -->
+
+			<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+
+			<!-- AUTOR -->
+
+			<meta name="author" content="reidark" />
+			<meta name="reply-to" content="victormatiasrei@gmail.com" />
+
+			<!-- LINGUAGEM -->
+
+			<meta name="language" content="Portuguese" />
+
+			<!-- CONTEÚDO -->
+
+			<meta name="keywords" content="web.ROAD, desenvolvimento web, github, jekyll, github pages, front-end"/>
+			<meta name="description" content="O objetivo da comunidade é passar conhecimento. Digamos que nós temos o mesmo objetivo ;)"/>
+			<meta name="subject" content="Desenvolvimento web">
+
+			<!-- GOOGLE ROBOTS -->
+
+			<meta name="robots" content="index, follow" />
+
+			<!-- FACEBOOK -->
+
+			<meta property="og:locale" content="pt_BR" />
+			<meta property="og:type" content="
+            {% if page.title == "Home" %}
+              website
+            {% else %}
+              article
+            {% endif %}" />
+			<meta property="og:title" content="
+            {% if page.title == "Home" %}
+              {{ site.tagline }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}" />
+			<meta property="og:description" content="
+            {% if page.title == "Home" %}
+              {{ site.description }}
+            {% else %}
+              {{ page.excerpt }}
+            {% endif %}" />
+			<meta property="og:url" content="http://reidark.github.io/{{ page.permalink }}" />
+			<meta property="og:site_name" content="web.ROAD" />
+			<meta property="og:image" content="http://reidark.github.io/assets/images/logo.jpg" />
+
+			<!-- TWITTER -->
+
+			<meta name="twitter:card" content="summary"/>
+			<meta name="twitter:site" content="@reidarking"/>
+			<meta name="twitter:domain" content="Victor Matias"/>
+			<meta name="twitter:creator" content="@reidarking"/>
+
+		</head>
+
+		<body>
+		
+		<script>
+			(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=594309170656113";
+				  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+			</script>
+
+			<button class="menu-button" role="button" data="fechado"><i class="fa fa-bars"></i></button>
+			
+			<menu class="navigation" role="menubar">
+			
+			    <p>navegue como um pirata :)</p>
+			    
+			    <ul>
+			        <a href="http://reidark.github.io"><li>Home</li></a>
+			    </ul>
+			    
+			</menu>
+			
+			<header class="header" role="banner">
+            
+            <section class="container">
+            
+                <div class="profile-header" itemscope itemtype="http://schema.org/Blog">
+
+                    <h1>
+                    <span itemprop="name"><a href="/index.html">web.ROAD</a></span>
+                    </h1>
+                    <p itemprop="headline">code to back home</p>
+                    <p class="social-media"><a href="https://github.com/reidark/reidark.github.io"><i class="fa fa-github" title="Acompanhe no Github"></i></a></p>
+                
+                </div>
+            
+            </section>
+            
+        </header>
