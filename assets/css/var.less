@@ -1,0 +1,116 @@
+///////////////////////////////////////////////////////////////////
+//
+//              Cores
+//
+///////////////////////////////////////////////////////////////////
+
+@cor0: #ffffff; // Branco
+@cor1: #000000; // Preto
+@cor2: #3498db; // Azul Claro
+@cor3: #2980b9; // Azul Escuro
+@cor4: #34495e; // Azul + Cinza Escuro
+@cor5: #2c3e50; // Azul + Cinza Dark
+@cor6: #ecf0f1; // Branco Leve
+@cor7: #2ecc71; // Verde Claro
+@cor8: #27ae60; // Verde Escuro
+@cor9: #1abc9c; // Azul Marinho
+@cor10: #e74c3c; // Vermelho Claro
+@cor11: #c0392b; // Vermelho Escuro
+@disable: #bdc3c7; // Cinza
+@texto: #515151; // Para textos e afins
+@data: #9a9a9a; // Para datetimes
+@especial: #f1f1f1; // Cinza usado no HR e outros
+@footer: #262D35; // Background do footer
+@menu: #202020; // Menu e afins
+
+///////////////////////////////////////////////////////////////////
+//
+//              Medias
+//
+///////////////////////////////////////////////////////////////////
+
+// Extra small screen / phone
+@screen-xs-min: 480px;
+@screen-xs-max: (@screen-sm-min - 1);
+
+// Small screen / tablet
+@screen-sm-min: 768px;
+@screen-sm-max: (@screen-md-min - 1);
+
+// Medium screen / desktop
+@screen-md-min: 992px;
+@screen-md-max: (@screen-lg-min - 1);
+
+// Large screen / wide desktop
+@screen-lg-min: 1200px;
+
+///////////////////////////////////////////////////////////////////
+//
+//              Transitions, opacidades, etc
+//
+///////////////////////////////////////////////////////////////////
+
+// Transition
+
+.transition(@duration:0.2s, @ease:ease-out) {
+  -webkit-transition: all @duration @ease;
+  -moz-transition: all @duration @ease;
+  -o-transition: all @duration @ease;
+  transition: all @duration @ease;
+}
+
+// Border Rounded
+
+.rounded(@radius: 2px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// Box Sizing
+
+.box-sizing(@sizing: border-box) {
+  -ms-box-sizing: @sizing;
+  -moz-box-sizing: @sizing;
+  -webkit-box-sizing: @sizing;
+  box-sizing: @sizing;
+}
+
+// Opacidade
+
+.opacity(@opacity: 0.5) {
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  -webkit-opacity: @opacity;
+  opacity: @opacity;
+  @opperc: @opacity * 100;
+  -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
+  filter: ~"alpha(opacity=@{opperc})";
+}
+
+// RGBA Colors
+
+.rgba(@colour, @alpha)
+{
+    @alphaColour: hsla(hue(@colour), saturation(@colour), lightness(@colour), @alpha);
+    @ieAlphaColour: argb(@alphaColour);
+     
+    background-color: @colour; // Fallback for older browsers
+    background-color: @alphaColour; 
+     
+    // IE hacks
+    zoom: 1; // hasLayout
+    background-color: transparent\9;
+    -ms-filter:  "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
+        filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 6 & 7
+     
+}
+
+// Background Cover
+
+.cover () {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

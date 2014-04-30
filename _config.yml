@@ -1,9 +1,9 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
-title: reidark
-tagline: code to back home
-description: code with melancholic track
+title: web.ROAD
+tagline: Desenvolvimento Web
+description: Tudo sobre desenvolvimento web ;)
 paginate: 5
 author:
   reidark:
