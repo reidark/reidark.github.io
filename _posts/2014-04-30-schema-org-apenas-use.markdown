@@ -4,7 +4,7 @@ title: Schema.org: Apenas use.
 layout: post
 tags: [web.ROAD desenvolvimento-web reidark]
 categories: [Artigos]
-permalink: schema-org-apenas-use.html
+permalink: schema-org-apenas-use
 excerpt: Dê significado para o conteúdo.
 author: reidark
 ---
