@@ -8,6 +8,7 @@ permalink: schema-org-apenas-use
 excerpt: Dê significado para o conteúdo.
 author: reidark
 ---
+
 Não importa o que você faz na internet, visto que existem milhares de coisas diferentes por ai. O intuito dela sempre foi um e creio que vai continuar assim por um bom tempo: **informação**. 
 
 O HTML foi feito para entregar informação e conteúdo para qualquer dispositivo, seja ele uma geladeira, um carro, um avião, já que o céu é o limite, haha.
