@@ -126,7 +126,7 @@ Pode notar que nessa tabela tem várias propriedades para serem adicionadas dent
 
 **<h1>**: Era aonde continha o título do artigo, por isso foi atribuido para ele a propriedade itemprop *name*.
 
-**<h2>**: Bascaimente um *excerpt* ou um sub-título. Por esse motivo identificamos ele com o itemprop *headline*
+**<h2>**: Basicamente um *excerpt* ou um sub-título. Por esse motivo identificamos ele com o itemprop *headline*
 
 **<p>**: Conteúdo do artigo, praticamente todo o corpo do conteúdo. Propriedade itemprop "articleBody".
 
