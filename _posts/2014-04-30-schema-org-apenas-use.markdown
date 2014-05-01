@@ -14,7 +14,7 @@ Não importa o que você faz na internet, visto que existem milhares de coisas d
 O HTML foi feito para entregar informação e conteúdo para qualquer dispositivo, seja ele uma geladeira, um carro, um avião, já que o céu é o limite, haha.
 Eu sei que essa ideia parece insana, mas já tem um grupo de estudos e pesquisas especialmente pra isso na W3C. Caso queira, leia isso [aqui](http://www.w3.org/community/autowebplatform/) ;)
 
-### Dando significado para informação
+## Dando significado para informação
 
 Com a grande vinda do HTML5, as novas tags como *<section>*, *main*, *<aside>*, *<footer>*, *<header>*, *<article>* e muitas outras foram criadas para dar sentido para informação inserida ali dentro. Isso é fortemente conhecido e aplicado com conceitos de **Web Semântica** que é basicamente a web com significado.
 
@@ -22,11 +22,11 @@ Porém, existe um esquema (literalmente) que reforça e ajuda os motores de busc
 
 Muitos sites famosos e com grande circulação de pessoas, já utilizam esses métodos, como é o caso do IMDb. Vejamos um exemplo simples e prático quando fazemos uma busca com os dados: "Captain America 2"
 
-
+![Capitão America 2 - IMDb](../assets/img/capitao-america-2.png "Capitão America 2 - Schema.org (IMBd)")
 
 Nós conseguimos ver uma grande quantidade de informação numa simples busca do Google. Personalizados pelo próprio IMBd, conseguimos ver a classificação do filme pelos usuários, e até ver a quantidade de votos.
 
-### Schema.org
+## Schema.org
 
 Ok, depois de toda essa explicação, todo mundo fica meio empolgado né? Sim, e é pra ficar mesmo, visto que isso ajuda em total parte de visibilidade para seu site.
 
@@ -36,21 +36,21 @@ E é aqui que entra uma longa jornada de testes e estudos no grande site (feio) 
 
 Pra você ir se familiarizando, faça uma visita ao [Schema.org](https://schema.org/) antes de começarmos algumas explicações.
 
-#### Da onde surgiu?
+### Da onde surgiu?
 
 Esse projeto foi uma junção dos motores de busca: Google, Yahoo, Bing e Yandex para dar significado á uma web melhor. Acabou que isso se tornou um tipo padrão de "web standards" e cada vez mais o pessoal vem adotando esses métodos.
 
-#### No que ele ajuda em meu site?
+### No que ele ajuda em meu site?
 
 Antigamente (diga-se antes do HTML5) os motores de busca tinham alguns problemas em capturar o conteúdo do seu site e exibir nas buscas. Os layouts eram basicamente estruturados com *<div>* que **não tem função semântica nenhuma**. Sim, se você ainda estrutura seu site com *<div>* você tá matando o **SEO** do mesmo. Então, esses motores de busca tinham que praticamente "adivinhar" qual era o conteúdo relevante no seu site, o que era um artigo, quem era o autor, entre outros.
 
-#### Serei punido se não usar?
+### Serei punido se não usar?
 
 Bem, eu não vou dizer pra você que usar o Schema.org é obrigatório, como se fosse uma lei. Mas, eu fortemente aconselharia você a pensar que sim, uma obrigatoriedade. Entenda, você não precisa dar significado até pro pronto final do seu texto, pelo menos tente dar um significado para qual parte será um artigo, qual parte é um endereço, qual parte é um video importante.
 
 Usando esses conceitos básicos, rapidamente você consegue adaptar sua forma de escrever códigos desse jeito, e quando você menos percebe, já tá estruturando até a cor de fundo (leve na brincaidera, hehe).
 
-### Dando os primeiros passos no Schema.org
+## Dando os primeiros passos no Schema.org
 
 Como eu disse mais a cima, o site do Schema.org é *confuso* e um pouco complicado de entender no começo. Primeiramente já vou dizendo que não sou expert nele e que uso 24 horas por dia, mas, sempre me esforço para dar o significado devido, mesmo que seja bem pouco.
 
@@ -62,7 +62,7 @@ Algo legal é: Existem categorias pra tudo quanto é tipo. Sério, pra tudo o qu
 
 Você ir navegando por essas categorias até encontrar muitas outras, mas, com toda essa informação, é necessário saber como aplicá-la, certo?
 
-#### Aplicando no código
+### Aplicando no código
 
 Depois de navegar um pouquinho pelo site (ou não) está na hora de botar a mão na massa.
 
@@ -132,7 +132,7 @@ Pode notar que nessa tabela tem várias propriedades para serem adicionadas dent
 
 Lembrando que o itemprop pode ir nas tags mais usadas para um estruturação, como *<span>*, *<a>*, *<strong>* entre outros.
 
-#### Atrelando outros Schemas em um só
+### Atrelando outros Schemas em um só
 
 Sim, agora começa os *inceptions* de bugar o cérebro. Utilizarei os exemplos usados a cima para mostrar como essa tática é feita, e explicarei depois:
 
@@ -158,7 +158,7 @@ Lembrando que, quando aquele div for fechada, os *itemprop* referente ao **itemt
 
 Ou seja, assim eu consigo estruturar dados de um artigo, e dentro desse artigo estruturar os dados do autor desse artigo. Sim, foi exemplo genérico e até bobo, mas é apenas para ilustrar o poder dessa estruturação de informação.
 
-#### Exemplo mais avançado:
+### Exemplo mais avançado:
 
 {% highlight html %}
 
@@ -179,15 +179,15 @@ Ou seja, assim eu consigo estruturar dados de um artigo, e dentro desse artigo e
 
 Nesse exemplo, adicionei mais algumas tags e propriedade pra dar um significado melhor, como *time* e um link direcionando para o website do autor. Também foi incrementado as tags e a refênrecia do artigo. Coisa simples, só pra dar um exemplo mais concreto.
 
-#### Formas de testar se estou fazendo certo
+### Formas de testar se estou fazendo certo
 
 O Google disponibilizou uma ferramente bacaníssima para você verificar se seu seus dados estruturados estão corretamente aplicados: [Ferramenta de teste de dados estruturados](http://www.google.com/webmasters/tools/richsnippets). Assim que você entrar no site, clique na aba HTML e cole a parte em que você estruturou com os dados do Schema.org e veja qual é o resultado.
 
 Veja como ficou o meu (utilizei a estruturação do último exemplo):
 
+![Dados estruturados - Schema.org](../assets/img/google-schema-org.png "Google - Schema.org")
 
-
-### Conclusão
+## Conclusão
 
 Creio que consegui explicar o mínimo do mínimo do Schema.org, certo? Portando, peço para que faça testes, coloque coisas variadas, teste, faça novamente, até você ir encontrando um caminho mais fácil e que o desenvolvimento do projeto inteiro consiga fluir de uma maneira bacana.
 
