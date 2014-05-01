@@ -4,7 +4,7 @@ title: Casa de ferreiro, espeto de pau.
 layout: post
 tags: [web.ROAD desenvolvimento-web reidark]
 categories: [Artigos]
-permalink: casa-de-ferreiro-espeto-de-pau
+permalink: casa-de-ferreiro-espeto-de-pau.html
 excerpt: O velho espeto de esquentar linguiça.
 author: reidark
 ---
