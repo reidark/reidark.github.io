@@ -1,6 +1,6 @@
 ---
 published: true
-title: Schema.org: Apenas use.
+title: Schema.org - Apenas use.
 layout: post
 tags: [web.ROAD desenvolvimento-web reidark]
 categories: [Artigos]
