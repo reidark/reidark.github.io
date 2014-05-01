@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
     {% for post in paginator.posts %}       
-    <article class="article" role="article">
+    <article class="article" role="article" itemscope itemtype="http://schema.org/Article">
 
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
-        <p class="excerpt">{{ post.excerpt }}</p>
+        <h1 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>
+        <p class="excerpt" itemprop="headline">{{ post.excerpt }}</p>
 
     </article>
 
