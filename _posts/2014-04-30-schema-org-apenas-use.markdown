@@ -22,7 +22,7 @@ Porém, existe um esquema (literalmente) que reforça e ajuda os motores de busc
 
 Muitos sites famosos e com grande circulação de pessoas, já utilizam esses métodos, como é o caso do IMDb. Vejamos um exemplo simples e prático quando fazemos uma busca com os dados: "Captain America 2"
 
-![Capitão America 2 - IMDb](../assets/img/capitao-america-2.png "Capitão America 2 - Schema.org (IMBd)")
+
 
 Nós conseguimos ver uma grande quantidade de informação numa simples busca do Google. Personalizados pelo próprio IMBd, conseguimos ver a classificação do filme pelos usuários, e até ver a quantidade de votos.
 
@@ -185,7 +185,7 @@ O Google disponibilizou uma ferramente bacaníssima para você verificar se seu 
 
 Veja como ficou o meu (utilizei a estruturação do último exemplo):
 
-![Dados estruturados - Schema.org](../assets/img/google-schema-org.png "Google - Schema.org")
+
 
 ### Conclusão
 
