@@ -16,7 +16,7 @@ Eu sei que essa ideia parece insana, mas já tem um grupo de estudos e pesquisas
 
 ### Dando significado para informação
 
-Com a grande vinda do HTML5, as novas tags como *<section>*, *<main>*, *<aside>*, *<footer>*, *<header>*, *<article>* e muitas outras foram criadas para dar sentido para informação inserida ali dentro. Isso é fortemente conhecido e aplicado com conceitos de **Web Semântica** que é basicamente a web com significado.
+Com a grande vinda do HTML5, as novas tags como *<section>*, *main*, *<aside>*, *<footer>*, *<header>*, *<article>* e muitas outras foram criadas para dar sentido para informação inserida ali dentro. Isso é fortemente conhecido e aplicado com conceitos de **Web Semântica** que é basicamente a web com significado.
 
 Porém, existe um esquema (literalmente) que reforça e ajuda os motores de busca á indexarem melhor o seu conteúdo e informação de uma forma "inteligente", ou, como eu posso dizer, mais humana e legível.
 
@@ -125,7 +125,9 @@ Para saber qual propriedade adicionar a cada elemento, você vai usar aquela tab
 Pode notar que nessa tabela tem várias propriedades para serem adicionadas dentro do *itemprop* e assim elas dão informação para aquele conteúdo.
 
 **<h1>**: Era aonde continha o título do artigo, por isso foi atribuido para ele a propriedade itemprop *name*.
+
 **<h2>**: Bascaimente um *excerpt* ou um sub-título. Por esse motivo identificamos ele com o itemprop *headline*
+
 **<p>**: Conteúdo do artigo, praticamente todo o corpo do conteúdo. Propriedade itemprop "articleBody".
 
 Lembrando que o itemprop pode ir nas tags mais usadas para um estruturação, como *<span>*, *<a>*, *<strong>* entre outros.
@@ -175,7 +177,7 @@ Ou seja, assim eu consigo estruturar dados de um artigo, e dentro desse artigo e
 
 {% endhighlight %}
 
-Nesse exemplo, adicionei mais algumas tags e propriedade pra dar um significado melhor, como *<time>* e um link direcionando para o website do autor. Também foi incrementado as tags e a refênrecia do artigo. Coisa simples, só pra dar um exemplo mais concreto.
+Nesse exemplo, adicionei mais algumas tags e propriedade pra dar um significado melhor, como *time* e um link direcionando para o website do autor. Também foi incrementado as tags e a refênrecia do artigo. Coisa simples, só pra dar um exemplo mais concreto.
 
 #### Formas de testar se estou fazendo certo
 
