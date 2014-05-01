@@ -130,7 +130,7 @@ Pode notar que nessa tabela tem várias propriedades para serem adicionadas dent
 
 **<p>**: Conteúdo do artigo, praticamente todo o corpo do conteúdo. Propriedade itemprop "articleBody".
 
-Lembrando que o itemprop pode ir nas tags mais usadas para um estruturação, como *<span>*, *<a>*, *<strong>* entre outros.
+Lembrando que o itemprop pode ir nas tags mais usadas para um estruturação, como *span*, *a*, *strong* entre outros.
 
 ### Atrelando outros Schemas em um só
 
