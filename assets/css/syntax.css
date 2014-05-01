@@ -3,7 +3,8 @@ pre{
     -moz-border-radius: 5px;
     border-radius: 5px;
     background: #ecf0f1;
-    padding: 10px; 
+    padding: 10px;
+    margin: 15px 0;
 }
 
 .hll { background-color: #ffffcc }
