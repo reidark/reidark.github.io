@@ -54,7 +54,7 @@ O processo a gente já sabe, é só entrar no Schema.org e procurar na busca por
             </div>
     </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 Aqui fiz o básico para estruturar o nome, escrição e imagem. Para estruturar o valor, tive que atrelar outro Schema dentro da primeira estrutura (vai se acostumando, produtos exigem bastante essa prática). Nessa estrutura atrelada, ela apresenta uma sub-categoria da principal, que é **ofetas**. A sub-categoria entitulada *AggregateOffer* é para estruturar vários valores referente ao produto, do menor até o maior. Vamos usar ele melhor no próximo exemplo.
 
