@@ -56,7 +56,7 @@ O processo a gente já sabe, é só entrar no Schema.org e procurar na busca por
 
 {% endhighlight %}
 
-Aqui fiz o básico para estruturar o nome, escrição e imagem. Para estruturar o valor, tive que atrelar outro Schema dentro da primeira estrutura (vai se acostumando, produtos exigem bastante essa prática). Nessa estrutura atrelada, ela apresenta uma sub-categoria da principal, que é **ofetas**. A sub-categoria entitulada *AggregateOffer* é para estruturar vários valores referente ao produto, do menor até o maior. Vamos usar ele melhor no próximo exemplo.
+Aqui fiz o básico para estruturar o nome, escrição e imagem. Para estruturar o valor, tive que atrelar outro Schema dentro da primeira estrutura (vai se acostumando, produtos exigem bastante essa prática). Nessa estrutura atrelada, ela apresenta uma sub-categoria da principal, que é **oferrs**. A sub-categoria entitulada *AggregateOffer* é para estruturar vários valores referente ao produto, do menor até o maior. Vamos usar ele melhor no próximo exemplo.
 
 Só nessa pequena estruturação, olha a quantidade de dados que o Google conseguiu tirar da minha estrutura:
 
@@ -94,11 +94,11 @@ Ok, vou mostrar mais um exemplo usando aquela estrutura básica, para termos uma
 
 Eita, agora o negócio ficou grande, hein. É, eu exagerei um pouquinho, mas, queria mostrar até onde e até aonde vai essa estruturação de produtos, e, lembrando que, esse ainda foi básico, dá pra aumentar bem mais.
 
-Nesse exemplo eu adicionei o menor valor do produto, e o maior valor, pra isso eu apenas adicionei mais um span com a propriedade *highPrice* dentro da div com o **itemprop** *aAggregateOffer* (linha 5).
+Nesse exemplo eu adicionei o menor valor do produto, e o maior valor, pra isso eu apenas adicionei mais um span com a propriedade *highPrice* dentro da div com o **itemprop** *AggregateOffer* (linha 5).
 
 Também, como prometido, adicionei a classificação de rating dos usuários, na linha logo abaixo á de cima. Pra isso atrelei o *AggregateRating* que é um type especialmente para isso, colocar **geral** a classificação do produto. Usei 3 spans com 3 valores diferentes. No primeiro span (com o itemprop *ratingValue*) era o total de classificações dos usuários, portanto, denominei na segunda span (itemprop *bestRating*) o valor 100, pra ele entender que 100 é o máximo. Pra finalizar, no terceiro e último span (itemprop *ratingCount*) adicionei 157 dizendo que era o total de classificações de usuários.
 
-No último item atrelado, simulei um *review*(avaliação escrita) de um usuário, com os itemprop *author* e *review* logo na linha abaixo pra dizer **quem** fez o review e **qual** foi a opinião dele. E pra finalizar, adicionei mais uma div de um Schema atrelado como um reviewRating, que significa "avaliação individual" pra simular quantas estrelas ele deu pra aquele produto.
+No último item atrelado, simulei um *review* (avaliação escrita) de um usuário, com os itemprop *author* e *review* logo na linha abaixo pra dizer **quem** fez o review e **qual** foi a opinião dele. E pra finalizar, adicionei mais uma div de um Schema atrelado como um reviewRating, que significa "avaliação individual" pra simular quantas estrelas ele deu pra aquele produto.
 
 No final, nosso produto ficou com esse visual (pra fazer os testes, utilize [essa ferramenta](http://www.google.com/webmasters/tools/richsnippets)):
 
