@@ -37,7 +37,7 @@ Começaremos com uma estrutura básica assim:
         <p>Valor: <span>R$299.90</span></p>
     </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 Acho que essa seria a estrutura mais básica pra um produto (ignorando botões e parentes). Só quero que vocês tenham em mente como mais ou menos ela é para fazermos a estruturação. Ok, com a nosso esqueleto html montado, vamos adicionar as propriedades do Schema.org para produtos.
 
@@ -88,7 +88,7 @@ Ok, vou mostrar mais um exemplo usando aquela estrutura básica, para termos uma
             </div>
     </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 Eita, agora o negócio ficou grande, hein. É, eu exagerei um pouquinho, mas, queria mostrar até onde e até aonde vai essa estruturação de produtos, e, lembrando que, esse ainda foi básico, dá pra aumentar bem mais.
 
