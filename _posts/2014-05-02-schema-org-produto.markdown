@@ -78,10 +78,12 @@ Ok, vou mostrar mais um exemplo usando aquela estrutura básica, para termos uma
                 <p>De: <span itemprop="lowPrice">R$299.90</span> até: <span itemprop="highPrice">R$599.00</span></p>
             </div>
             <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-                <p><span itemprop="ratingValue">95</span>% recomendações de <span itemprop="bestRating">100</span>%. Total de usuários que recomendaram: <span itemprop="ratingCount">157</span>.</p>
+                <p><span itemprop="ratingValue">95</span>% recomendações de <span itemprop="bestRating">100</span>%. 
+                Total de usuários que recomendaram: <span itemprop="ratingCount">157</span>.</p>
             </div>
             <div itemprop="Review" itemscope itemtype="http://schema.org/Review">
-                <p><span itemprop="author">reidark</span> disse: "<span itemprop="review">Adorei o produto, ótima qualidade, estão de parabéns!</span>"</p>
+                <p><span itemprop="author">reidark</span> 
+                    disse: "<span itemprop="review">Adorei o produto, ótima qualidade, estão de parabéns!</span>"</p>
                 <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                     Avalição de reidark sobre o produto: <span itemprop="ratingValue">5</span> estrelas de <span itemprop="bestRating">5</span>.
                 </div>
