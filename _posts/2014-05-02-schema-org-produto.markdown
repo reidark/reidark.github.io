@@ -1,8 +1,8 @@
 ---
 published: true
-title: Schema.org 2 - Estruturando dados de produtos
+title: Schema.org #2 - Estruturando dados de produtos
 layout: post
-tags: [schema.org produtos e-commerce]
+tags: [schema.org, produtos, reidark, e-commerce]
 categories: [Artigos]
 permalink: schema-org-produtos
 excerpt: Estruturando dados de produtos.
