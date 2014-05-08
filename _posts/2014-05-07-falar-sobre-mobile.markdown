@@ -35,7 +35,7 @@ Vou te contar algumas coisinhas pra você entender qual o impacto disso:
 
 Dá pra ver mais umas coisinhas por aqui:
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/23878672" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="display: block; margin: auto; border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/mobify/50-mustknow-mobile-commerce-facts-and-statistics" title="50 Must-Know Mobile Commerce Facts and Statistics" target="_blank">50 Must-Know Mobile Commerce Facts and Statistics</a> </strong> from <strong><a href="http://www.slideshare.net/mobify" target="_blank">Mobify</a></strong> </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/23878672" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="display: block; margin: auto; border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 ## Alguns links úteis
 
