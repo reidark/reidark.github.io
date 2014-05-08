@@ -28,10 +28,10 @@ Essa é uma **estatística de 2013** (sim, agora já está um pouco diferente), 
 
 Vou te contar algumas coisinhas pra você entender qual o impacto disso:
 
-*Um e-commerce perde 30% das vendas se não for otimizado para mobile.
-*As redes sociais são mais acessadas por mobile do que por desktops.
-*Nos Estados Unidos, 1 em 3 pessoas possui um tablet.
-*O custo para ter um dispositivo de mão é menor do que um desktop/notebook.
+*   Um e-commerce perde 30% das vendas se não for otimizado para mobile.
+*   As redes sociais são mais acessadas por mobile do que por desktops.
+*   Nos Estados Unidos, 1 em 3 pessoas possui um tablet.
+*   O custo para ter um dispositivo de mão é menor do que um desktop/notebook.
 
 Dá pra ver mais umas coisinhas por aqui:
 
@@ -40,6 +40,7 @@ Dá pra ver mais umas coisinhas por aqui:
 ## Alguns links úteis
 
 [Responsive - Tableless](http://tableless.com.br/categoria/internet-movel/responsive-design-web/)
+
 [PopUp Design - Design Responsivo](http://blog.popupdesign.com.br/design-responsivo-grids-e-texto/)
 
 Ainda virei falar de mais algumas coisas por aqui. Mas até lá, pense no seu site responsivo :)
