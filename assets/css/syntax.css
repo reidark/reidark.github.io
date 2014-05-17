@@ -1,4 +1,7 @@
 pre{
+    max-width: 700px;
+    width: 100%;
+    overflow: auto;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
