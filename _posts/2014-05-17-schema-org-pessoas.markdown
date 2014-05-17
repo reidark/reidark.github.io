@@ -8,7 +8,7 @@ permalink: schema-org-pessoas
 excerpt: Que tal a gente aprender agora como se estrutura dados para pessoas?
 author: reidark
 ---
-Ohoooo, estou de volta amigos! Fiquei um tempo sem postar aqui, mas por favor, não me julguem, estava ocupado com meus outros projetos :(. Porém, sem rasgação de seda, vamos direto ao assunto principal do post: **Estruturar dados de pessoas com o Schema.org**.
+Ohoooo, estou de volta amigos! Fiquei um tempo sem postar aqui, mas por favor, não me julguem, estava ocupado com meus outros projetos. Então, vamos direto ao assunto principal do post: **Estruturar dados de pessoas com o Schema.org**.
 
 Pra quem ainda não viu ou não sabe o que é o Schema.org, fiz um *breve* tutorial dele, você pode conferir o post [aqui](http://reidark.github.io/schema-org-apenas-use/).
 
@@ -58,7 +58,7 @@ Vamos montar uma estrutura básica para entenderemos como funciona sem o Schema,
 
 {% endhighlight %}
 
-Beleza, essa é a estrutura básica que você **deve** ter. Claro, nada é obrigatório, mas use, faz toda diferença. Agora que já temos nossa estrutura montada, vamos aplicar as regras do Schema.org para ele. Primeiro nós entramos no (site do Schema.org)[https://schema.org/] e procuramos o que queremos, que, nesse caos é *Person*. Essa busca vai resultar nessa página: (Person - Schema.org)[https://schema.org/Person]. É aqui que vamos tirar toda a informação que precisamos, é so navegar pela tabela e ver como você pode aplicar isso.
+Beleza, essa é a estrutura básica que você **deve** ter. Claro, nada é obrigatório, mas use, faz toda diferença. Agora que já temos nossa estrutura montada, vamos aplicar as regras do Schema.org para ele. Primeiro nós entramos no [site do Schema.org](https://schema.org/) e procuramos o que queremos, que, nesse caos é *Person*. Essa busca vai resultar nessa página: (Person - Schema.org)[https://schema.org/Person]. É aqui que vamos tirar toda a informação que precisamos, é so navegar pela tabela e ver como você pode aplicar isso.
 
 Agora, mãos na massa:
 
