@@ -91,7 +91,10 @@ Acompanhe comigo:
         <h1 itemprop="name">Victor Hugo Matias</h1>
         <h2 itemprop="jobTitle">Desenvolvedor Web</h2>
         
-        <p>Olá, me chamo <span itemprop="givenName">Victor</span> Hugo <span itemprop="familyName">Matias</span> mas também conhecido como <span itemprop="additionalName">reidark</span>. Sou Desenvolvedor Web na <span itemprop="workLocation">Z3Web</span>. Moro no <strong itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Brasil</span></strong> e gosto muito de projetos open-source. Você pode entrar em contato comigo pelo número <span itemprop="telephone">0000-0000</span> ou pelo email <span itemprop="email">reikaosdark@gmail.com</span>. Abraços!</p>
+        <p>Olá, me chamo <span itemprop="givenName">Victor</span> Hugo <span itemprop="familyName">Matias</span> mas também conhecido como <span itemprop="additionalName">reidark</span>. 
+        Sou Desenvolvedor Web na <span itemprop="workLocation">Z3Web</span>. 
+        Moro no <strong itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Brasil</span></strong> e gosto muito de projetos open-source. 
+        Você pode entrar em contato comigo pelo número <span itemprop="telephone">0000-0000</span> ou pelo email <span itemprop="email">reikaosdark@gmail.com</span>. Abraços!</p>
     </header>
 
 {% endhighlight %}
