@@ -51,14 +51,14 @@ Vamos montar uma estrutura básica para entenderemos como funciona sem o Schema,
 {% highlight html %}
 
     <header>
-        <img ssrc="victor.png" alt="Victor Hugo Matias" title="Victor Hugo Matias" />
+        <img src="victor.png" alt="Victor Hugo Matias" title="Victor Hugo Matias" />
         <h1>Victor Hugo Matias</h1>
         <h2>Desenvolvedor Web</h2>
     </header>
 
 {% endhighlight %}
 
-Beleza, essa é a estrutura básica que você **deve** ter. Claro, nada é obrigatório, mas use, faz toda diferença. Agora que já temos nossa estrutura montada, vamos aplicar as regras do Schema.org para ele. Primeiro nós entramos no [site do Schema.org](https://schema.org/) e procuramos o que queremos, que, nesse caos é *Person*. Essa busca vai resultar nessa página: (Person - Schema.org)[https://schema.org/Person]. É aqui que vamos tirar toda a informação que precisamos, é so navegar pela tabela e ver como você pode aplicar isso.
+Beleza, essa é a estrutura básica que você **deve** ter. Claro, nada é obrigatório, mas use, faz toda diferença. Agora que já temos nossa estrutura montada, vamos aplicar as regras do Schema.org para ele. Primeiro nós entramos no [site do Schema.org](https://schema.org/) e procuramos o que queremos, que, nesse caos é *Person*. Essa busca vai resultar nessa página: [Person - Schema.org](https://schema.org/Person). É aqui que vamos tirar toda a informação que precisamos, é so navegar pela tabela e ver como você pode aplicar isso.
 
 Agora, mãos na massa:
 
