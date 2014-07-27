@@ -405,6 +405,11 @@ h4 {
   color: #515151;
   border: 1px solid #9a9a9a;
 }
+a.older:hover,
+a.newer:hover {
+  background: #1abc9c;
+  color: #ffffff;
+}
 .older {
   border-right: 0;
   border-top-left-radius: 4px;
