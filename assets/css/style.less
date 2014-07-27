@@ -212,12 +212,21 @@ h4{
     }
     
     a{
-        color: @cor0;
+      width: 100%;
+      display: table;
+      .rgba(@cor1, 0.2);
+      padding: 10px 20px;
+      .transition(0.2s);
+       
+       &:hover{
+          .rgba(@cor1, 1);
+       }
     }
     
     li{
-        padding: 10px 20px;
-        .rgba(@cor0, 0.2);
+      list-style: none;
+      display: table;
+      width: 100%;
     }
 }
 
@@ -336,6 +345,11 @@ h4{
     em{
         font-style: italic;   
     }
+   
+   ul{
+      width: 90%;
+      margin: 0 auto;
+   }
 }
 
 /***************************************************************
