@@ -139,7 +139,7 @@ hr {
 	display: block;
 	background: #f1f1f1;
 	height: 1px;
-	margin: 35px 0;
+	margin: 50px 0;
 }
 
 h1 {
@@ -247,16 +247,31 @@ h4 {
 }
 
 .navigation a {
-	color: #fff;
+	width: 100%;
+	display: table;
+	background-color: #000;
+	background-color: rgba(0,0,0,.2);
+	zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000);
+	padding: 10px 20px;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+.navigation a:hover {
+	background-color: #000;
+	zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000, endColorstr=#ff000000)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000, endColorstr=#ff000000);
 }
 
 .navigation li {
-	padding: 10px 20px;
-	background-color: #fff;
-	background-color: rgba(255,255,255,.2);
-	zoom: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff)";
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33ffffff);
+	list-style: none;
+	display: table;
+	width: 100%;
 }
 
 .header {
@@ -362,6 +377,11 @@ h4 {
 
 .article em {
 	font-style: italic;
+}
+
+.article ul {
+	width: 90%;
+	margin: 0 auto;
 }
 
 .pagination-item {
