@@ -29,14 +29,6 @@ Victor.
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-::-moz-selection {
-  background: #000;
-  text-shadow: none;
-}
-::selection {
-  background: #000;
-  text-shadow: none;
-}
 html,
 body,
 div,
@@ -126,8 +118,8 @@ body {
   font-family: 'PT Sans';
   font-weight: 400;
   background: #ffffff;
-  color: #fff;
-  font-size: 1em;
+  color: #ffffff;
+  font-size: 62.5%;
 }
 html,
 body {
@@ -154,18 +146,22 @@ hr {
 ****************************************************************/
 h1 {
   font-weight: 700;
+  font-size: 25px;
   font-size: 2.5rem;
 }
 h2 {
   font-weight: 700;
+  font-size: 18px;
   font-size: 1.8rem;
 }
 h3 {
   font-weight: 700;
+  font-size: 15px;
   font-size: 1.5rem;
 }
 h4 {
   font-weight: 700;
+  font-size: 12px;
   font-size: 1.2rem;
 }
 /***************************************************************
@@ -193,6 +189,7 @@ h4 {
   left: 20px;
   padding: 13px;
   color: #ffffff;
+  font-size: 13px;
   font-size: 1.3rem;
   cursor: pointer;
   z-index: 9999;
@@ -218,7 +215,8 @@ h4 {
   border: 0;
 }
 .social-media {
-  font-size: 2.0rem;
+  font-size: 20px;
+  font-size: 2rem;
   padding: 5px 0;
 }
 .social-media a {
@@ -295,9 +293,9 @@ h4 {
 ****************************************************************/
 .header {
   width: 100%;
-  max-height: 200px;
+  max-height: 400px;
   height: 100%;
-  background: #202020 url(../img/background.jpg);
+  background: url(../img/background.jpg) #202020;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -311,9 +309,9 @@ h4 {
   padding: 42px;
 }
 .profile-header h1 {
-  text-shadow: 1px 0px 2px #fff;
+  font-size: 18px;
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 .profile-header h1 a {
   color: #ffffff;
@@ -344,6 +342,7 @@ h4 {
 }
 .article .excerpt {
   color: #515151;
+  font-size: 13px;
   font-size: 1.3rem;
   padding-top: 10px;
 }
@@ -357,11 +356,13 @@ h4 {
 }
 .article p {
   color: #515151;
-  font-size: 1.0rem;
+  font-size: 10px;
+  font-size: 1rem;
   padding: 12px 0;
 }
 .article time {
   color: #9a9a9a;
+  font-size: 12px;
   font-size: 1.2rem;
 }
 .article hr {
@@ -429,8 +430,10 @@ a.newer:hover {
   height: auto;
   padding: 20px 0;
   background: #262d35;
+  font-size: 9px;
   font-size: 0.9rem;
 }
 .footer i {
+  font-size: 12px;
   font-size: 1.2rem;
 }
