@@ -16,16 +16,6 @@
 	box-sizing: border-box;
 }
 
-::-moz-selection {
-	background: #000;
-	text-shadow: none;
-}
-
-::selection {
-	background: #000;
-	text-shadow: none;
-}
-
 a,
 abbr,
 acronym,
@@ -117,7 +107,7 @@ body {
 	font-weight: 400;
 	background: #fff;
 	color: #fff;
-	font-size: 1em;
+	font-size: 62.5%;
 }
 
 body,
@@ -144,21 +134,25 @@ hr {
 
 h1 {
 	font-weight: 700;
+	font-size: 25px;
 	font-size: 2.5rem;
 }
 
 h2 {
 	font-weight: 700;
+	font-size: 18px;
 	font-size: 1.8rem;
 }
 
 h3 {
 	font-weight: 700;
+	font-size: 15px;
 	font-size: 1.5rem;
 }
 
 h4 {
 	font-weight: 700;
+	font-size: 12px;
 	font-size: 1.2rem;
 }
 
@@ -177,6 +171,7 @@ h4 {
 	left: 20px;
 	padding: 13px;
 	color: #fff;
+	font-size: 13px;
 	font-size: 1.3rem;
 	cursor: pointer;
 	z-index: 9999;
@@ -203,6 +198,7 @@ h4 {
 }
 
 .social-media {
+	font-size: 20px;
 	font-size: 2rem;
 	padding: 5px 0;
 }
@@ -277,9 +273,9 @@ h4 {
 
 .header {
 	width: 100%;
-	max-height: 200px;
+	max-height: 400px;
 	height: 100%;
-	background: #202020 url(../img/background.jpg);
+	background: url(../img/background.jpg) #202020;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -287,27 +283,41 @@ h4 {
 }
 
 .header .container {
+	position: relative;
 	text-align: center;
 	height: 100%;
 }
 
 .profile-header {
-	padding: 42px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -54px;
+	margin-left: -66px;
 }
 
 .profile-header h1 {
-	text-shadow: 1px 0 2px #fff;
-	font-size: 1.8rem;
-	font-weight: 400;
+	font-size: 22px;
+	font-size: 2.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .profile-header h1 a {
 	color: #fff;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 }
 
-.profile-image {
-	width: 80px;
-	height: 80px;
+.profile-header h1 a:hover {
+	color: #1abc9c;
+}
+
+.profile-header p {
+	font-size: 10px;
+	font-size: 1rem;
 }
 
 .main {
@@ -328,6 +338,7 @@ h4 {
 
 .article .excerpt {
 	color: #515151;
+	font-size: 13px;
 	font-size: 1.3rem;
 	padding-top: 10px;
 }
@@ -343,12 +354,14 @@ h4 {
 
 .article p {
 	color: #515151;
+	font-size: 10px;
 	font-size: 1rem;
 	padding: 12px 0;
 }
 
 .article time {
 	color: #9a9a9a;
+	font-size: 12px;
 	font-size: 1.2rem;
 }
 
@@ -417,10 +430,12 @@ a.older:hover {
 	height: auto;
 	padding: 20px 0;
 	background: #262d35;
+	font-size: 9px;
 	font-size: .9rem;
 }
 
 .footer i {
+	font-size: 12px;
 	font-size: 1.2rem;
 }
 

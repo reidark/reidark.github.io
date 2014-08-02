@@ -176,6 +176,8 @@ h4 {
   height: auto;
   display: table;
   margin: 0 auto;
+  font-size: 10px;
+  font-size: 1rem;
 }
 @media (max-width: 800px) {
   .container,
@@ -302,23 +304,36 @@ h4 {
   background-size: cover;
 }
 .header .container {
+  position: relative;
   text-align: center;
   height: 100%;
 }
 .profile-header {
-  padding: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -54px;
+  margin-left: -66px;
 }
 .profile-header h1 {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .profile-header h1 a {
   color: #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
-.profile-image {
-  width: 80px;
-  height: 80px;
+.profile-header h1 a:hover {
+  color: #1abc9c;
+}
+.profile-header p {
+  font-size: 10px;
+  font-size: 1rem;
 }
 /***************************************************************
 
