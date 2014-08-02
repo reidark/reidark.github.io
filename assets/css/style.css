@@ -321,19 +321,23 @@ h4 {
   font-weight: 700;
   text-transform: uppercase;
 }
-.profile-header h1 a {
+.profile-header p {
+  font-size: 10px;
+  font-size: 1rem;
+}
+.profile-header a {
   color: #ffffff;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.profile-header h1 a:hover {
+.profile-header a:hover {
   color: #1abc9c;
 }
-.profile-header p {
-  font-size: 10px;
-  font-size: 1rem;
+.profile-header i {
+  font-size: 20px;
+  font-size: 2rem;
 }
 /***************************************************************
 
