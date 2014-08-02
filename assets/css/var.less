@@ -114,3 +114,13 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+// Font Size
+
+.font-size(@sizeValue) {
+  @remValue: @sizeValue;
+  @pxValue: (@sizeValue * 10);
+  font-size: ~"@{pxValue}px"; 
+  font-size: ~"@{remValue}rem";
+}
