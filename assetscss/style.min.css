@@ -322,6 +322,11 @@ h4 {
 	color: #1abc9c;
 }
 
+.profile-header i {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
 .main {
 	width: 100%;
 	height: auto;

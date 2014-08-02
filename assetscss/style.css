@@ -322,7 +322,8 @@ h4 {
 	width: 100%;
 	max-height: 400px;
 	height: 100%;
-	background: url(../img/background.jpg) #202020;
+	background: url(../img/background.jpg) #202020 bottom center;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
