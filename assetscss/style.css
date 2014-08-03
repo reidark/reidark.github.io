@@ -329,6 +329,7 @@ h4 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	margin-bottom: 25px;
 }
 
 .header .container {
@@ -384,7 +385,7 @@ h4 {
 	width: 100%;
 	height: auto;
 	display: table;
-	padding: 30px 0;
+	padding: 40px 0;
 }
 
 .article {
